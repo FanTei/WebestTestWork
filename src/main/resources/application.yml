@@ -1,0 +1,9 @@
+server:
+  port: 9090
+jedis:
+  port: ${REDIS_PORT:6379}
+  host: ${REDIS_HOST:localhost}
+price:
+  url:
+    general: "url"
+    parametr: "param"
