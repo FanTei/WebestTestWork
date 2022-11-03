@@ -35,19 +35,14 @@ Spring boot, Java 11
 Код лучше выложить на битбакет или гитхаб и прислать ссылку на репозиторий.
 
 ```
-Запуск .jar:
----
-```
-java -jar build/libs/alfa_test-0.0.1.jar
-```
 Docker:
 ---
 Для создания образа Docker
 ```  
-docker build -t alfa_test .
+docker build -t .
 ```
 Запуск:
 ```
-docker run -p 8881:8881 alfa_test
+docker run -p 8881:8881 
 ``` 
 
